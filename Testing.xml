@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BuggyQA" parallel="false">
+  <test name="FunctionalTests">
+    <classes>
+      <class name="org.goquant.tests.LoginTest"/>
+      <class name="org.goquant.tests.AddToCartTest"/>
+      <class name="org.goquant.tests.CheckoutTest"/>
+    </classes>
+  </test>
+</suite>
